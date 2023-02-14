@@ -339,7 +339,7 @@ body {
     text-align: start;
     padding-left: 20px;
     padding-bottom: 2px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
 }
 
@@ -367,4 +367,111 @@ body {
 
 .plan .plan__btn:hover{
     cursor: pointer;
+}
+
+/* Testimonials Section */
+
+.testimonials__container{
+  width: 100%;
+  height: 300px;
+}
+
+/* Client Section Styles */
+.client_section__container{
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+}
+
+.layout_overlay{
+  width: 100%;
+  height: 100%;
+  background-color: #A1BFD4;
+  text-align: center;
+}
+
+.layout_overlay .overlay__img{
+  width: 10%;
+}
+
+/* Footer Section Styles */
+
+.footer_section__container{
+  width: 100%;
+  height: 270px;
+  background-color: #2b2c2e;
+  color: #fff;
+}
+
+.main__container{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container__1{
+  width: 35%;
+}
+
+.main__container .container__1 .title{
+  padding-top: 40px;
+  padding-bottom: 20px;
+} 
+
+.main__container .container__1 .desc{
+  padding-bottom: 15px;
+  font-weight: 200;
+  opacity: 0.5;
+}
+
+.main__container .container__1 .email{
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.main__container .container__1 .email:focus{
+  border: 1px solid #489fd9;
+}
+
+.main__container .container__1 .subscribe__btn{
+  margin: 0;
+  padding: 0;
+
+}
+
+.main__container .container__1 i{
+  padding-right: 10px;
+  padding-top: 25px;
+  font-size: 18px;
+  opacity: 0.4;
+}
+
+.container__2{
+  padding-top: 40px;
+}
+
+.container__2 .title{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.container__2 .items li{
+  list-style: none;
+  padding: 3px 1px;
+  font-weight: 200;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.container__2 .items li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container__2 .items li a:hover{
+  cursor: pointer;
 }
